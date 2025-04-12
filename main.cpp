@@ -64,14 +64,14 @@ void prepareShader() {
 }
 
 void prepareTransform() {
-	// 先沿x轴平移2
+	// 先沿x轴平移2, 得到平移矩阵
 	auto tranlate1 = glm::translate(glm::mat4(1.0f), glm::vec3(5.0, 0.0f, 0.0f));
 	//transform = glm::translate(glm::mat4(1.0f), glm::vec3(5.0, 0.0f, 0.0f));
 
-	// 在放大3倍
+	// 在放大3倍, 得到缩放矩阵
 	auto scale1 = glm::scale(glm::mat4(1.0f), glm::vec3(5.0f, 5.0f, 5.0f));
 
-	transform = scale1 * tranlate1;
+	transform = scale1 * tranlate1;  // 先平移再缩放
 }
 
 void prepareState() {

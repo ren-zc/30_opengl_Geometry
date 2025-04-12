@@ -1,8 +1,4 @@
 #include "application.h"
-#include "application.h"
-#include "application.h"
-#include "application.h"
-#include "application.h"
 #include <glad/glad.h>
 #include <GLFW/glfw3.h>
 

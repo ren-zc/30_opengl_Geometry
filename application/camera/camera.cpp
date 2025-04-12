@@ -1,7 +1,4 @@
 #include "camera.h"
-#include "camera.h"
-#include "camera.h"
-#include "camera.h"
 
 Camera::Camera()
 {

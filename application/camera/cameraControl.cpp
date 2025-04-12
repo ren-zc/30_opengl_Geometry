@@ -1,5 +1,4 @@
 #include "cameraControl.h"
-#include "cameraControl.h"
 #include <iostream>
 
 CameraControl::CameraControl()
